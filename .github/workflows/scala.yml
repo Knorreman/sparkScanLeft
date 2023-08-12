@@ -18,17 +18,18 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        java-version: ["8", "11", "17"]
+        scala-version: ["2.12", "2.13"]
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up JDK 11
+    - name: Set up JDK ${{ matrix.java-version }}
       uses: actions/setup-java@v3
       with:
-        java-version: '11'
+        java-version: ${{ matrix.java-version }}
         distribution: 'temurin'
         cache: 'sbt'
     - name: Run tests
       run: sbt test
-      # Optional: This step uploads information to the GitHub dependency graph and unblocking Dependabot alerts for the repository
-    - name: Upload dependency graph
-      uses: scalacenter/sbt-dependency-submission@ab086b50c947c9774b70f39fc7f6e20ca2706c91
