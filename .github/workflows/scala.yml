@@ -20,6 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
         java-version: ["8", "11", "17"]
         scala-version: ["2.12", "2.13"]
 
@@ -32,4 +33,6 @@ jobs:
         distribution: 'temurin'
         cache: 'sbt'
     - name: Run tests
-      run: sbt test
+      run: |
+        set scalaVersion := ${{ matrix.scala-version }}
+        sbt test
