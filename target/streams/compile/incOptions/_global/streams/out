@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\erik_\git\sparkScanLeft\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\erik_\git\sparkScanLeft\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ConditionalTail$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ConditionalTail$ConditionalTailList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScanLeft$ScanLeftRDD.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ConditionalTail$ConditionalTailSeq.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScanLeft$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ConditionalTail.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScanLeft.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\erik_\git\sparkScanLeft\target\scala-2.13\classes.bak[0m
